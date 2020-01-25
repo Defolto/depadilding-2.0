@@ -1,0 +1,32 @@
+.advantage{
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.formFon{
+    background: url('img/callCenter.jpg');
+    background-size: cover;
+    height: 600px;
+}
+.formFon_form{
+    display: flex;
+    flex-direction: column;
+}
+.formFon_form input{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.formFon_form button{
+    background-color: yellow;
+    border: 0;
+    width: 50%;
+    margin: 10px auto 0;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
