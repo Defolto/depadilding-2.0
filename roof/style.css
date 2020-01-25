@@ -1,8 +1,23 @@
+p{
+    font-size: 22px;
+    text-align: left;
+}
+.chema{
+    list-style: none;
+    padding-left: 15px;
+}
+.chema li p img{
+    margin-right: 5px;
+}
 .advantage{
-    border: 1px solid black;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+}
+.advantage div h5{
+    font-size: 35px;
+}
+.advantage div p{
+    font-size: 22px;
 }
 .formFon{
     background: url('img/callCenter.jpg');
