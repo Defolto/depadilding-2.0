@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Заявка на аренду техники</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex flex-column">
+              <form class="d-flex flex-column" method="get" action="">
+                  <label class="zakaz-modal">
+                      <p class="m-0">Имя:</p class="m-0">
+                      <input type="text" placeholder="Максим">
+                  </label> 
+                  <label class="zakaz-modal">
+                    <p class="m-0">Номер телефона:</p>
+                    <input type="text" placeholder="+7 (911) 111 11 11">
+                  </label>
+                  <label class="zakaz-modal">
+                    <p class="m-0">Нужная техника:</p>
+                    <select>
+                        <option value="">Камаз</option>
+                        <option value="">Самосвал Shacman</option>
+                        <option value="">Автокран "Ивановец"</option>
+                    </select>
+                  </label>
+                  <button type="submit" class="tech-btn-modal tech-btn mx-auto">Отправить</button>
+                  <small class="text-center pt-2">Отправляя данные мы их не сохраняем и гарантируем полную конфиденциальность </small>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="leftMenu">
+        <nav class="navbar-dark">
+            <div class="container-fluid">
+                <div class="row px-3">
+                    <div class="col-md-6 col-3 d-flex flex-row pl-0">
+                        <div class="camburger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="mb-auto" id="menu1"></div>
+                    </div>
+                    <div class="col-md-6 col-9 text-right pt-2 pr-0">
+                        <p class="number">+7 (999) 111-11-11</p>
+                        <p class="email">example@mail.ru</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center pt-3">
+                        <p class="logo">Монтаж<wbr>Технология</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid outMenu">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <ul class="listMenu">
+                        <li>Услуги</li>
+                        <li>&#8226;</li>
+                        <li>Компания</li>
+                        <li>&#8226;</li>
+                        <li>Подкасты</li>
+                        <li>&#8226;</li>
+                        <li>Статьи</li>
+                        <li>&#8226;</li>
+                        <li>Контакты</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar-dark fixed-top p-4" id="padding5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-4 col-3 d-flex flex-row pl-0">
+                    <div class="camburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div id="menu2">Меню</div>
+                </div>
+                <div class="col-xl-4 col-4 text-center d-flex" id="showBlock">
+                    <p class="logo text-dark my-auto" id="showLogo">МонтажТехнология</p>
+                </div>
+                <div class="col-xl-4 col-9 text-right pt-2 d-flex flex-column justify-content-end" id="contact1">
+                    <p class="number">+7 (817) 221-44-84</p>
+                    <p class="email">info-depa@yandex.ru</p>
+                    <div><div class="question ml-3">Задать вопрос</div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center pt-3">
+                    <p class="logo" id="logo">Монтаж<wbr>Технология</p>
+                    <small id="smallText">Кровля и Фасады</small>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="main-fon">
+        <div class="row"> 
+            <div class="col-md-6 pt-5 mt-5 px-5">
+                <h1 class="section stroke pb-3">Аренда спец техники</h1>
+                <p class="text-left main-text text-white text-center">Наша компания готова предоставить Вам свою технику на любой срок и по лучшим ценам в городе.</p>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center pt-4">
+            <h2 class="section">Почему выбирают нас</h2>
+        </div>
+        <div class="row justify-content-around" id="chooseMe">
+            <div class="col-md-3">
+                <img src="img/good.png" alt="Полная исправность">
+                <h4>100% исправность техники перед арендой</h4>
+            </div>
+            <div class="col-md-3">
+                <img src="img/time.png" alt="Любой длительности срок">
+                <h4>Удобная система срока аренды</h4>
+            </div>
+            <div class="col-md-3">
+                <img src="img/price.png" alt="Доступная цена">
+                <h4>Доступная цена</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row tech" id="kamaz">
+            <div class="col-md-6 p-3 d-flex flex-column">
+                <h4 class="tech-title text-center">КАМАЗ</h4>
+                <ul class="tech-spisok">
+                    <li>Грузоподъёмность стрелы 7 тонн</li>
+                    <li>Максимальный вылет 19 метров</li>
+                    <li>Грузоподъёмность борта 10 тонн</li>
+                    <li>Внтуренний размер борта 6200х2470х730</li>
+                </ul>
+                <button class="tech-btn" data-toggle="modal" data-target="#exampleModal">Оставить заявку на технику</button>
+            </div>
+            <div class="col-md-6 px-0">
+                <img src="img/kamaz.jpg" alt="">
+            </div>
+        </div>
+        <div class="row tech" id="shachman">
+            <div class="col-md-6 px-0">
+                <img src="img/shachman.jpg" alt="">
+            </div>
+            <div class="col-md-6 p-3 d-flex flex-column">
+                <h4 class="tech-title text-center">Самосвал Shacman</h4>
+                <ul class="tech-spisok">
+                    <li>Разрешенная максимальная масса 31 тонна</li>
+                    <li>Передняя ось 7,5 тонн (по технологии «MAN»)</li>
+                    <li>Задний мост 16 тонн (по технологии «Steyr»)</li>
+                    <li>Ручная коробка передач с синхронизаторами на всех передачах</li>
+                </ul>
+                <button class="tech-btn" data-toggle="modal" data-target="#exampleModal">Оставить заявку на технику</button>
+            </div>
+        </div>
+        <div class="row tech" id="kamaz">
+            <div class="col-md-6 p-3 d-flex flex-column">
+                <h4 class="tech-title text-center">Автокран "Ивановец"</h4>
+                <ul class="tech-spisok">
+                    <li>Грузоподъёмность стрелы 25 тонн</li>
+                    <li>Максимальный вылет 21 метр</li>
+                    <li>Полностью ручная коробка передач</li>
+                </ul>
+                <button class="tech-btn" data-toggle="modal" data-target="#exampleModal">Оставить заявку на технику</button>
+            </div>
+            <div class="col-md-6 px-0">
+                <img src="img/Ivanov.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="../jquery-1.11.0.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="//code-ya.jivosite.com/widget/XdLrOUuqMe" async></script>
+</body>
+</html>

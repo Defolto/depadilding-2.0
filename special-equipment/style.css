@@ -1,0 +1,96 @@
+#main-fon{
+    background: url('img/main-fon.jpg');
+    background-size: cover;
+    min-height: 80vh;
+}
+
+#main-fon .main-text{
+    font-size: 26px;
+    line-height: 32px;
+}
+
+#chooseMe div{
+    margin: 30px;
+    padding: 35px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+}
+
+.stroke{
+    color: white !important;
+    font-size: 60px !important;
+}
+
+#chooseMe img{
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+#kamaz{
+    background-color: #f1f1f1;
+}
+
+#shachman{
+    background-color: #fefefe;
+}
+
+.tech img{
+    width: 100%;
+}
+
+.tech-spisok{
+    list-style: none;
+}
+
+.tech-spisok li{
+    font-size: 21px;
+    padding-bottom: 6px;
+}
+
+.tech-spisok li:before{
+    content: '- ';
+}
+
+.tech-title{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.tech-btn{
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    font-size: 21px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #fbf226;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+    transition: .6s;
+    cursor: pointer;
+    outline: none;
+}
+
+.tech-btn:hover{
+    background-color: #fcf015;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+    transform: translateY(-2px);
+}
+
+.zakaz-modal{
+    width: 100%;
+}
+
+.zakaz-modal input,
+.zakaz-modal select{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(182, 182, 182);
+    padding: 7px 4px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.tech-btn-modal{
+    padding: 5px 30px;
+}
