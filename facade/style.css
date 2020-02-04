@@ -1,0 +1,101 @@
+#fon-main{
+    background: url('img/fon.jpg');
+    background-size: cover;
+    height: 75vh;
+    background-position-y: center;
+    width: 100%;
+}
+
+#fon-main .title-main{
+    color: white;
+    font-size: 70px;
+    padding-bottom: 15px;
+}
+
+#fon-main .text-main{
+    color: white;
+    font-size: 22px;
+}
+
+.block-panel{
+    background-color: rgb(231, 231, 231);
+    padding: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.55);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.block-panel img{
+    min-width: 153px;
+    height: 153px;
+}
+
+.info-panel{
+    margin-left: 15px;
+}
+
+.btn-panel{
+    display: inline-block;
+    background-color: yellow;
+    padding: 5px 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-right: 15px;
+}
+
+.pluse{
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding: 0 !important;
+}
+
+.pluse-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.pluse img{
+    width: 100%;
+}
+
+.block-pluse{
+    display: flex;
+    flex-direction: row;
+}
+
+.block-pluse img{
+    min-width: 100px;
+    height: 100px;
+}
+
+.block-pluse p{
+    margin-left: 15px;
+}
+
+.formFon{
+    background: url('img/callCenter.jpg');
+    background-size: cover;
+    height: 600px;
+}
+.formFon_form{
+    display: flex;
+    flex-direction: column;
+}
+.formFon_form input{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.formFon_form button{
+    background-color: yellow;
+    border: 0;
+    width: 50%;
+    margin: 10px auto 0;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}

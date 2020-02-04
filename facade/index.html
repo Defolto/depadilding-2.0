@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Заявка на аренду техники</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex flex-column">
+              <form class="d-flex flex-column" method="get" action="">
+                  <label class="zakaz-modal">
+                      <p class="m-0">Имя:</p class="m-0">
+                      <input type="text" placeholder="Максим">
+                  </label> 
+                  <label class="zakaz-modal">
+                    <p class="m-0">Номер телефона:</p>
+                    <input type="text" placeholder="+7 (911) 111 11 11">
+                  </label>
+                  <label class="zakaz-modal">
+                    <p class="m-0">Нужная техника:</p>
+                    <select>
+                        <option value="">Камаз</option>
+                        <option value="">Самосвал Shacman</option>
+                        <option value="">Автокран "Ивановец"</option>
+                    </select>
+                  </label>
+                  <button type="submit" class="tech-btn-modal tech-btn mx-auto">Отправить</button>
+                  <small class="text-center pt-2">Отправляя данные мы их не сохраняем и гарантируем полную конфиденциальность </small>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="leftMenu">
+        <nav class="navbar-dark">
+            <div class="container-fluid">
+                <div class="row px-3">
+                    <div class="col-md-6 col-3 d-flex flex-row pl-0">
+                        <div class="camburger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="mb-auto" id="menu1"></div>
+                    </div>
+                    <div class="col-md-6 col-9 text-right pt-2 pr-0">
+                        <p class="number">+7 (999) 111-11-11</p>
+                        <p class="email">example@mail.ru</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center pt-3">
+                        <p class="logo">Монтаж<wbr>Технология</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid outMenu">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <ul class="listMenu">
+                        <li>Услуги</li>
+                        <li>&#8226;</li>
+                        <li>Компания</li>
+                        <li>&#8226;</li>
+                        <li>Подкасты</li>
+                        <li>&#8226;</li>
+                        <li>Статьи</li>
+                        <li>&#8226;</li>
+                        <li>Контакты</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar-dark fixed-top p-4" id="padding5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-4 col-3 d-flex flex-row pl-0">
+                    <div class="camburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div id="menu2">Меню</div>
+                </div>
+                <div class="col-xl-4 col-4 text-center d-flex" id="showBlock">
+                    <p class="logo text-dark my-auto" id="showLogo">МонтажТехнология</p>
+                </div>
+                <div class="col-xl-4 col-9 text-right pt-2 d-flex flex-column justify-content-end" id="contact1">
+                    <p class="number">+7 (817) 221-44-84</p>
+                    <p class="email">info-depa@yandex.ru</p>
+                    <div><div class="question ml-3">Задать вопрос</div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center pt-3">
+                    <p class="logo" id="logo">Монтаж<wbr>Технология</p>
+                    <small id="smallText">Кровля и Фасады</small>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="fon-main">
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7 mt-5 pt-5">
+                <h1 class="section title-main pt-5">Вентелируемые фасады</h1>
+                <p class="text-main">Наша компания готова предложить на выбор 6 различных видов вентелируемых фасадов, каждый из которых отвечает своим указанным требованиям</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <h2 class="section pb-4">Почему нас выбирают</h2>
+        <div class="row justify-content-around">
+            <div class="col-md-2 pluse">
+                <img src="img/pluse1.png" alt="">
+                <p class="pluse-title">Только профессионалы</p>
+            </div>
+            <div class="col-md-2 pluse">
+                <img src="img/pluse2.png" alt="">
+                <p class="pluse-title">Бригады до 100 человек</p>
+            </div>
+            <div class="col-md-2 pluse">
+                <img src="img/pluse3.png" alt="">
+                <p class="pluse-title">Гарантия 10 лет</p>
+            </div>
+            <div class="col-md-2 pluse">
+                <img src="img/pluse4.png" alt="">
+                <p class="pluse-title">Выезд в любое точку страны</p>
+            </div>
+            <div class="col-md-2 pluse">
+                <img src="img/pluse5.png" alt="">
+                <p class="pluse-title">Любые допуски и лицензии</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5">
+        <h2 class="section pb-4">Виды фасадов</h2>
+        <div class="row justify-content-around">
+            <div class="col-md-5 block-panel">
+                <img src="img/1.png" alt="">
+                <div class="info-panel">
+                    <h3>Алюминиевая панель</h3>
+                    <p>Является самым передовым решением по улучшению внешнего вида зданий любых форм и конструктивных решений.</p>
+                    <div>
+                        <div class="btn-panel">Оставить заявку</div>
+                        <div class="btn-panel">Подробнее</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 block-panel">
+                <img src="img/2.png" alt="">
+                <div class="info-panel">
+                    <h3>Композитная панель</h3>
+                    <p>Очень легкий и доступный материал для отделочных работ. Он не подвержен коррозии, воздействию ультрафиолета.</p>
+                    <div>
+                        <div class="btn-panel">Оставить заявку</div>
+                        <div class="btn-panel">Подробнее</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="col-md-5 block-panel">
+                <img src="img/4.png" alt="">
+                <div class="info-panel">
+                    <h3>Натуральный гранит</h3>
+                    <p>Данная отделка придаст любому зданию респектабельности и дизайн дорогой постройки. Уникальность материалу придает большое разнообразие естественных расцветок, а также вариантов отделки и технологий обработки.</p>
+                    <div>
+                        <div class="btn-panel">Оставить заявку</div>
+                        <div class="btn-panel">Подробнее</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 block-panel">
+                <img src="img/3.png" alt="">
+                <div class="info-panel">
+                    <h3>Керамический гранит</h3>
+                    <p>Прочный, долговечный материал с абсолютной влагонепроницаемостью. Характерной чертой данного материала является глянцевая поверхность отделки, морозостойкость.</p>
+                    <div>
+                        <div class="btn-panel">Оставить заявку</div>
+                        <div class="btn-panel">Подробнее</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="col-md-5 block-panel">
+                <img src="img/5.png" alt="">
+                <div class="info-panel">
+                    <h3>Фиброцементная плита</h3>
+                    <p>Характерными свойствами данного вида является морозостойкости, невосприимчивость к огню, влаге и перепадам температуры.</p>
+                    <div>
+                        <div class="btn-panel">Оставить заявку</div>
+                        <div class="btn-panel">Подробнее</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 block-panel">
+                <img src="img/6.png" alt="">
+                <div class="info-panel">
+                    <h3>Металлические кассеты</h3>
+                    <p>Легкая и прочная облицовка, основой которой являются пластины из оцинкованной стали или же из анодируемого алюминия. Верхний слой полимерное напыление которое продлевает срок эксплуатации до 50 лет.</p>
+                    <div>
+                        <div class="btn-panel">Оставить заявку</div>
+                        <div class="btn-panel">Подробнее</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="section text-center pb-4">Преимущества и особенности</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <p class="text-left">Каждый из вариантов по-своему хорош, и делая выбор в сторону того или иного материала для обновления внешнего вида и утепления, необходимо учесть некоторые особенности. К примеру, если здание подвергаемое отделке выполнено из кирпича, то скорее всего можно выбрать более тонкий утеплитель, тем самым сэкономив на материалах.</p>
+                <p>Между верхними облицовочными материалами существуют различия в несущих конструкциях, условиях эксплуатации, сроке службы ну и конечно же в цене. Но в независимости от выбранного материала плюсы которые предстают перед владельцами очевидны.</p>
+                <p>Несомненно, навесные вентилируемые фасады (НВФ), вне зависимости от вида облицовки являются инновационной технологией в реконструкции внешнего облика. Сегодня данная технология распространена как при реконструкции промышленных и административных зданий, так и при проведении капитального ремонта жилых домов.</p>
+                <p>Компания МонтажТехнология рада предложить навесные фасады всех видов, а также произвести работы по монтажу.</p>
+            </div>
+            <div class="col-md-5">
+                <div class="block-pluse">
+                    <img src="img/number1.png" alt="">
+                    <p><strong>Во-первых</strong>, после проделанной работы, теплоизоляция помещения возрастает в несколько раз, а это значит, что летом вы не будите страдать от жары, так как стены будут защищены от дополнительного нагрева, ну а зимой вас не застанут врасплох внезапно пришедшие в город заморозки.</p>
+                </div>
+                <div class="block-pluse">
+                    <img src="img/number2.png" alt="">
+                    <p><strong>Во-вторых</strong>, все виды вентилируемых фасадов (вентфасадов) очень легко моются. Вам не нужно будет регулярно отмывать облицовку зданий, они отмоются сами под небольшим дождем.</p>
+                </div>
+                <div class="block-pluse">
+                    <img src="img/number3.png" alt="">
+                    <p><strong>В-третьих</strong>, после монтажа здание приобретает экстерьер нового здания. Оно выглядит современным и останется таким на долгие года. Так как ему не страшны воздействия окружающей среды.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid formFon mt-5">
+        <div class="row">
+            <div class="col-md-7">
+                
+            </div>
+            <div class="col-md-5 p-5">
+                <h2 class="text-center pb-5">Остались вопросы? <br> Готовы с Вами связаться!</h2>
+                <form class="formFon_form" action="">
+                    <label for="">
+                        Ваше имя:<br>
+                        <input type="text">
+                    </label>
+                    <label for="">
+                        Почта:<br>
+                        <input type="text">
+                    </label>
+                    <label for="">
+                        Телефон:<br>
+                        <input type="text">
+                    </label>
+                    <button type="submit" class="">Отправить заявку</button>
+                </form>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <script src="../jquery-1.11.0.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="//code-ya.jivosite.com/widget/XdLrOUuqMe" async></script>
+</body>
+</html>
