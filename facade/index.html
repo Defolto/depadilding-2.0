@@ -15,38 +15,60 @@
 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Заявка на аренду техники</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title1" id="exampleModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body1 d-flex flex-column">
+                
+                </div>
             </div>
-            <div class="modal-body d-flex flex-column">
-              <form class="d-flex flex-column" method="get" action="">
-                  <label class="zakaz-modal">
-                      <p class="m-0">Имя:</p class="m-0">
-                      <input type="text" placeholder="Максим">
-                  </label> 
-                  <label class="zakaz-modal">
-                    <p class="m-0">Номер телефона:</p>
-                    <input type="text" placeholder="+7 (911) 111 11 11">
-                  </label>
-                  <label class="zakaz-modal">
-                    <p class="m-0">Нужная техника:</p>
-                    <select>
-                        <option value="">Камаз</option>
-                        <option value="">Самосвал Shacman</option>
-                        <option value="">Автокран "Ивановец"</option>
-                    </select>
-                  </label>
-                  <button type="submit" class="tech-btn-modal tech-btn mx-auto">Отправить</button>
-                  <small class="text-center pt-2">Отправляя данные мы их не сохраняем и гарантируем полную конфиденциальность </small>
-              </form>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Подача заявки</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body d-flex flex-column">
+                    <form action="" class="d-flex flex-column formFon_form">
+                        <label>
+                            <p>Как к Вам обращаться:</p>
+                            <input type="text">
+                        </label>
+                        <label>
+                            <p>Email:</p>
+                            <input type="text">
+                        </label>
+                        <label>
+                            <p>Номер телефона:</p>
+                            <input type="text">
+                        </label>
+                        <label>
+                            <p>Интересующий вид фасада:</p>
+                            <select name="" id="" class="viewFacade">
+                                <option value="">Алюминиевая панель</option>
+                                <option value="">Композитная панель</option>
+                                <option value="">Натуральный гранит</option>
+                                <option value="">Керамический гранит</option>
+                                <option value="">Фиброцементная плита</option>
+                                <option value="">Металлические кассеты</option>
+                            </select>
+                        </label>
+                        <button type="submit">Отправить завку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="leftMenu">
         <nav class="navbar-dark">
@@ -165,8 +187,8 @@
                     <h3>Алюминиевая панель</h3>
                     <p>Является самым передовым решением по улучшению внешнего вида зданий любых форм и конструктивных решений.</p>
                     <div>
-                        <div class="btn-panel">Оставить заявку</div>
-                        <div class="btn-panel">Подробнее</div>
+                        <div class="btn-panel call-back" id="o0" data-toggle="modal" data-target="#form">Оставить заявку</div>
+                        <div class="btn-panel dop-info" id="i0" data-toggle="modal" data-target="#exampleModal">Подробнее</div>
                     </div>
                 </div>
             </div>
@@ -176,8 +198,8 @@
                     <h3>Композитная панель</h3>
                     <p>Очень легкий и доступный материал для отделочных работ. Он не подвержен коррозии, воздействию ультрафиолета.</p>
                     <div>
-                        <div class="btn-panel">Оставить заявку</div>
-                        <div class="btn-panel">Подробнее</div>
+                        <div class="btn-panel call-back" id="o1" data-toggle="modal" data-target="#form">Оставить заявку</div>
+                        <div class="btn-panel" id="i1" data-toggle="modal" data-target="#exampleModal">Подробнее</div>
                     </div>
                 </div>
             </div>
@@ -187,11 +209,11 @@
             <div class="col-md-5 block-panel">
                 <img src="img/4.png" alt="">
                 <div class="info-panel">
-                    <h3>Натуральный гранит</h3>
-                    <p>Данная отделка придаст любому зданию респектабельности и дизайн дорогой постройки. Уникальность материалу придает большое разнообразие естественных расцветок, а также вариантов отделки и технологий обработки.</p>
+                    <h3>Профлист</h3>
+                    <p>Профнастил один из молодых и востребованных материалов для фасадов. Такой популярности способствует универсальность данного материала, относительно малое количество недостатков при большом количестве положительных качеств, а также ценовая доступность.</p>
                     <div>
-                        <div class="btn-panel">Оставить заявку</div>
-                        <div class="btn-panel">Подробнее</div>
+                        <div class="btn-panel call-back" id="o2" data-toggle="modal" data-target="#form">Оставить заявку</div>
+                        <div class="btn-panel" id="i2" data-toggle="modal" data-target="#exampleModal">Подробнее</div>
                     </div>
                 </div>
             </div>
@@ -201,8 +223,8 @@
                     <h3>Керамический гранит</h3>
                     <p>Прочный, долговечный материал с абсолютной влагонепроницаемостью. Характерной чертой данного материала является глянцевая поверхность отделки, морозостойкость.</p>
                     <div>
-                        <div class="btn-panel">Оставить заявку</div>
-                        <div class="btn-panel">Подробнее</div>
+                        <div class="btn-panel call-back" id="o3" data-toggle="modal" data-target="#form">Оставить заявку</div>
+                        <div class="btn-panel" id="i3" data-toggle="modal" data-target="#exampleModal">Подробнее</div>
                     </div>
                 </div>
             </div>
@@ -215,8 +237,8 @@
                     <h3>Фиброцементная плита</h3>
                     <p>Характерными свойствами данного вида является морозостойкости, невосприимчивость к огню, влаге и перепадам температуры.</p>
                     <div>
-                        <div class="btn-panel">Оставить заявку</div>
-                        <div class="btn-panel">Подробнее</div>
+                        <div class="btn-panel call-back" id="o4" data-toggle="modal" data-target="#form">Оставить заявку</div>
+                        <div class="btn-panel" id="i4" data-toggle="modal" data-target="#exampleModal">Подробнее</div>
                     </div>
                 </div>
             </div>
@@ -226,8 +248,8 @@
                     <h3>Металлические кассеты</h3>
                     <p>Легкая и прочная облицовка, основой которой являются пластины из оцинкованной стали или же из анодируемого алюминия. Верхний слой полимерное напыление которое продлевает срок эксплуатации до 50 лет.</p>
                     <div>
-                        <div class="btn-panel">Оставить заявку</div>
-                        <div class="btn-panel">Подробнее</div>
+                        <div class="btn-panel call-back" id="o5" data-toggle="modal" data-target="#form">Оставить заявку</div>
+                        <div class="btn-panel" id="i5" data-toggle="modal" data-target="#exampleModal">Подробнее</div>
                     </div>
                 </div>
             </div>
