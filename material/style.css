@@ -1,42 +1,115 @@
-.form-row div{
-    width: 50%;
+#mainFon{
+    background: url("img/fon.jpg");
+    background-size: cover;
+    min-height: 80vh;
 }
 
-label{
-    width: 100%;
+.pluses div img{
+    margin: 0 auto;
 }
 
-label p{
-    margin: 0;
-    font-size: 22px;
+.pluses div p{
+    text-align: center;
 }
 
-.download{
+.title{
+    font-size: 51px;
+}
+
+.selection{
+    box-sizing: border-box;
+    background-color: rgb(233, 233, 233);
+    transition: .6s;
+    border-left: 0.5px solid grey;
+    border-bottom: 8px solid transparent;
+}
+@media (max-width: 768px){
+    .selection{
+        border-left: 0.5px solid grey;
+        border-right: 0.5px solid grey;
+    }
+    .selection:nth-child(1){
+        border-bottom: 0.5px solid grey;
+    }
+    .selection:nth-child(2){
+        border-bottom: 0.5px solid grey;
+    }
+    .selection:nth-child(3){
+        border-bottom: 0.5px solid grey;
+    }
+}
+.selection:hover{
+    cursor: pointer;
+    border-bottom: 8px solid rgb(251, 255, 71);
+    box-shadow: 8px 1px 11px 4px rgba(0,0,0,0.25), -8px 1px 11px 4px rgba(0,0,0,0.22);
+    z-index: 1;
+}
+.selection:nth-child(4){
+    border-right: 0.5px solid gray;
+}
+.selection p{
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 23px;
+}
+
+.picture{
+    background: url(img/komer.jpg);
+    background-size: cover !important;
+    background-position-y: bottom !important;
+    height: 70vh;
+}
+
+.position{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+.order {
+    text-decoration: none !important ;
+    outline: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    position: relative;
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid transparent;
     font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: yellow;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: .7s;
 }
 
-.input-style{
-    border: none;
-    border-bottom: 1px solid black;
-    width: 70%;
-    margin-bottom: 15px;
-    outline: none;
-    transition: .8s;
+.order:hover{
+    background-color: rgb(252, 252, 63);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.95);
 }
 
-.input-style:focus{
-    background-color: rgb(233, 233, 233);
-    border-bottom: 1px solid rgb(202, 202, 1);
+.formFon{
+    background: url('img/callCenter.jpg');
+    background-size: cover;
+    height: 600px;
 }
-
-textarea{
+.formFon_form{
+    display: flex;
+    flex-direction: column;
+}
+.formFon_form input{
     width: 100%;
-    max-height: 140px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
     outline: none;
-    transition: .8s;
 }
-
-textarea:focus{
-    background-color: rgb(233, 233, 233);
-    border: 1px solid rgb(202, 202, 1);
+.formFon_form button{
+    background-color: yellow;
+    border: 0;
+    width: 50%;
+    margin: 10px auto 0;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
