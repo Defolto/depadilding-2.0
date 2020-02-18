@@ -56,7 +56,7 @@
 .picture{
     background: url(img/komer.jpg);
     background-size: cover !important;
-    background-position-y: bottom !important;
+    background-position-y: center !important;
     height: 70vh;
 }
 
