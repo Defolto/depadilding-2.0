@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans|Roboto+Slab&display=swap');
+
+.section{
+    font-family: 'Bitter';
+    color: #1a1b1b;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 400;
+}
+@media(max-width: 400px){
+    .section{
+        font-size: 42px;
+    }
+}
+
+.logo:hover{
+    text-decoration: none;
+}
+
+.listMenu{
+    margin-top: 40px;
+}
+
+.listMenu li a{
+    color: #1a1b1b;
+}
+
+.title1{
+    font-family: 'Bitter';
+}
+

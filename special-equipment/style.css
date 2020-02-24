@@ -46,6 +46,7 @@
 .tech-spisok li{
     font-size: 21px;
     padding-bottom: 6px;
+    font-family: 'Open Sans', ;
 }
 
 .tech-spisok li:before{
@@ -53,6 +54,7 @@
 }
 
 .tech-title{
+    font-family: 'Bitter';
     font-size: 40px;
     padding-bottom: 25px;
 }
@@ -69,12 +71,17 @@
     transition: .6s;
     cursor: pointer;
     outline: none;
+    outline-style: none;
 }
 
 .tech-btn:hover{
     background-color: #fcf015;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
     transform: translateY(-2px);
+}
+
+.tech-btn:focus{
+    outline-style: none;
 }
 
 .zakaz-modal{
