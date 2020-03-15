@@ -1,3 +1,4 @@
+
 p{
     font-family: 'Open Sans';
     font-size: 22px;
@@ -15,12 +16,37 @@ p{
     display: flex;
     align-items: flex-start;
 }
+@media(max-width: 620px){
+    .advantage{
+        flex-direction: column;
+    }
+    .advantage img{
+        width: 50%;
+    }
+}
+
+@media(max-width: 470px){
+    .advantage img{
+        width: 70%;
+    }
+}
+
+@media(max-width: 350px){
+    .section{
+        font-size: 35px !important;
+    }
+}
 .advantage img{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .advantage div h5{
     font-family: 'Roboto Slab';
     font-size: 35px;
+}
+@media(max-width: 500px){
+    .advantage div h5{
+        font-size: 32px !important;
+    }
 }
 .advantage div p{
     font-size: 20px;
@@ -29,6 +55,11 @@ p{
     background: url('img/callCenter.jpg');
     background-size: cover;
     height: 600px;
+}
+.formFon_mobile{
+    background: url('img/callCenterMobile.jpg') !important;
+    background-size: cover !important;
+    height: 100%;
 }
 .formFon_form{
     display: flex;

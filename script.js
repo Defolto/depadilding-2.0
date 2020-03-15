@@ -145,3 +145,7 @@ if ($(window).width() < 450) {
     $('#padding5').removeClass('p-4');
     $('#padding5').addClass('p-1');
 }
+
+if ($(window).width() < 400) {
+    $('#smallText').detach();
+}

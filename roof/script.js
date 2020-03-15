@@ -289,3 +289,28 @@ $('.camburger').click(function () {
     var slider = multiItemSlider('.slider', {
       isCycling: true
     })
+
+if (window.innerWidth < 1200) {
+  document.getElementById('menu2').remove();
+  document.getElementById('showBlock').remove();
+  if (window.innerWidth < 500) {
+    document.querySelector(`.number`).remove()
+  }
+}
+
+if(window.innerWidth < 620){
+  document.getElementById('foto1').classList.add('ml-auto');
+  document.getElementById('foto2').classList.add('ml-auto');
+  document.getElementById('foto1').classList.remove('order-3');
+  document.getElementById('foto2').classList.remove('order-3');
+  document.getElementById('foto1').classList.add('order-1');
+  document.getElementById('foto2').classList.add('order-1');
+}
+
+if (window.innerWidth < 1150) {
+  document.querySelector('.formFon').classList.add('formFon_mobile');
+}
+
+if (window.innerWidth < 400) {
+  document.querySelector(`.number`).remove()
+}
